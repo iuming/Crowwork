@@ -1,0 +1,79 @@
+/* pages/myPost/myPost.wxss */
+@import "../../style/app.wxss";
+
+@font-face {
+    font-family: "ss-font";
+    src: url('iconfont.eot?t=1559198437600');
+    /* IE9 */
+    src: url('iconfont.eot?t=1559198437600#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAKEAAsAAAAABjQAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcApEWAE2AiQDCAsGAAQgBYRhBzUbdwURBdTJPg7TjfYsx0TwoezKovjveHh+f/+tfc75GEEdboLStPfjJDEJIUFpXOE2zkz35bToGIUwnbLn+376DsguPcIv4fQfXFM/gR74QOijFklRTZVAE91Ao4JGtpGMfMPYBS7hOIHmehspps8zF2pUWOMCsTNsWacx51IUFm0U6muWFnFEncZ0KL1kHA6/H7+M0UhSl1l5czfP2Gjy1/Z2XK5VNSt9hJuAVtchYyQKsbA2NFsWjMqah4r+7Cs7+Nq+qnyj2KtOsL/OymwJekL6nhiXvdVogtvqqQ06jrqaaHOATp2/1mnTyVrHjSeunuvyqOnGjXM7npy7e2dLJ+f91rnH+ZzJoLqZqrzCBIJpyy8cXNNm/O/GFgW863T+S+iobhb9LDSubw7+A9OzpeicZUhFZWq7kzb7L2iuOSrY1t7nsepOJ42FBp1GWBr0TNFMDkALORzqtDAO6jUYD82NMG11Cx3slkVphuGaAISotVtoIm+jmXyCFvIV1OnsD/Va+w/NLY6GLVsYHKvsNMFFcYf1B2Hjg5yg2gO1CTOv6F55kRwbjHqi1MAHDG1fil7wQBk/o77dqEpAwgVmehrmzHAKR9y09arn1HVU96Z242KsaQRaKLQDqx8QbNiB/GJlHVA1+c9dIeclW0h9Bc30hK1ywP2BQavX0Yt89Km4h1eqN2ekFAFEsALMfBDKMgbO+kER2qiWHxE4TTq7E/WV29Mpy3cVwRosTQp7btZinQh/GgnOqzE=') format('woff2'),
+        url('iconfont.woff?t=1559198437600') format('woff'),
+        url('iconfont.ttf?t=1559198437600') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('iconfont.svg?t=1559198437600#ss-font') format('svg');
+    /* iOS 4.1- */
+}
+
+.ss-font {
+    font-family: "ss-font" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ss-iconarrow-right {
+    line-height: 17px;
+}
+
+.ss-iconarrow-right:before {
+    content: "\e612";
+}
+
+
+
+.myPost-box {
+    border: 1px solid rgb(165, 138, 138);
+    border-radius: 20rpx;
+    margin: 30rpx;
+}
+
+
+
+.myPost-header {
+    padding: 20rpx 20rpx 10rpx 20rpx;
+}
+
+.myPost-deleteButton {
+    text-align: center;
+    line-height: 22rpx;
+    padding: 6rpx;
+    width: 70rpx;
+    border-radius: 40rpx;
+    background-color: rgb(88, 76, 76);
+}
+
+.myPostContent {
+    margin: 10rpx 20rpx 0 20rpx;
+    padding-bottom: 30rpx;
+    border-bottom: 1px solid rgb(165, 138, 138);
+}
+
+.myPost-buttom {
+    font-size: 12px;
+    padding: 20rpx;
+    align-items: center;
+}
+
+.myPost-money {
+    border-radius: 20rpx;
+    padding: 0 10rpx;
+    background-color: rgb(236, 85, 85);
+    color: red
+}
+
+.myPost-progress {
+    display: flex;
+    font-weight: 700;
+}

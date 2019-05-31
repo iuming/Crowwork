@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "ss-font";
+    src: url('iconfont.eot?t=1559192589401');
+    /* IE9 */
+    src: url('iconfont.eot?t=1559192589401#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMQAAsAAAAABtwAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqBUIFLATYCJAMMCwgABCAFhGEHNRsEBhHVk31kX2FThl+huC6CLK/JOFd6bzsHDmZvrA9EcAIFAAAAAARRrVVZ3T19SOwA+dkBQvhn/RyeLQAI9WrhqV/b292PequkIySGLpYI9SpQLamkTmhXqSSaBUAnNFzc6YQK8X+bm/1SGBVhmBL7y0/fkU4gXJpf839NvUhegnwbgN0tiiqCivYmPKCBRibZBjQg3jB2wQvcDAE8iSUbafZae4lisHsJIKuDhSmiBQ8Gw+LuCLZhokFO4eCuRvocOBl9X/5RKO6gcDT2wM75llmqP3mG6F1/fzSA8IIApzuABrIBAzLeGBnEEMbReCpdd7rFIKil/K4jxlDbg/7xFIjFzvUGIB1GFfzEE0Hgp1egANAAWMAANUArxIMPFrStxEOH3YWM2c7W+dlz/vmjYXH5muK1u0ipMPji7knZvfDymsxgYNfU0xPIbr5wfIHSuehGXW2sldn0hfgkCrZbIoKdBzZnbqR7g+xrw5OuCor8D/l1fI5abL3a6K4sg3kYWzrmz/V6pvyVpYLReTxDXodJ7K7qmN4D0HF65Pf+htteUMlEpvrtnnAAvHG/T6QxDFe7n9wq8DPZgXXGkNhabTTGYyybpuzGwgrwNOy4bEcgH6erQwbnguBGSAYrPBrWeBJs8Ezg4EWB3Op4NfAki6bpXgSxDkNMDMhkNwSCL7dghd+HNf4INvgL4BDKN7mF+H/gSb+4LehFqozF1SOjErSg/xANLc4NS1VKHeXe0L8nxQVx2O2FXCIt0DddJX7FBXn6kPLxg4gDxzTDhW6H00SwMiU00gSRdWxb1/SmxtC8qTgyKkEL+g/R0OKCcqkopS5+7ob+PSlurqFbXtipjLg16JvOgK/KZUjNI1xTPn4QceCYZrhwE056hGBtbpfQSBMmhNaxdRq5ocrmcur5zzYBceyVTFRMHIemMvkQaMbNBg==') format('woff2'),
+        url('iconfont.woff?t=1559192589401') format('woff'),
+        url('iconfont.ttf?t=1559192589401') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('iconfont.svg?t=1559192589401#ss-font') format('svg');
+    /* iOS 4.1- */
+}
+
+.ss-font {
+    font-family: "ss-font" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ss-iconback:before {
+    content: "\e609";
+}
+
+.ss-iconhome:before {
+    content: "\e615";
+}
+
+.ss-icon__info {
+    color: #fff;
+    left: 100%;
+    top: -.5em;
+    font-size: 0.5em;
+    padding: 0 0.3em;
+    text-align: center;
+    min-width: 1.2em;
+    line-height: 1.2;
+    position: absolute;
+    border-radius: 0.6em;
+    box-sizing: border-box;
+    background-color: #f44;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+    "usingComponents": {
+      "ss-icon": "../../Component/ss-icon/ss-icon"
+    }
+}

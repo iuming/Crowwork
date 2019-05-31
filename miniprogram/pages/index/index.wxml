@@ -1,0 +1,163 @@
+<view class="body-main-box">
+    <view class="logo">
+        <image id="logo" src="../../images/logo.png"></image>
+    </view>
+    <block wx:for="{{data}}" wx:key="unique">
+        <!-- 第一张 -->
+        <view class="body-swiper" bindtouchstart="touchstart1" bindtouchend="touchend1"
+            style="z-index:{{index1}};top:{{ballTop1}}rpx;  margin-left:{{ballLeft1}}rpx;width:{{ballWidth1}}rpx;"
+            animation="{{animationData1}}">
+            <!-- 正面 -->
+            <block wx:if="{{isFront1}}">
+                <view class="body-container" style="background-color:#fffef9">
+                    <view class="outer">
+                        <view class="top row-between">
+                            <view class="top-info column-between">
+                                <image class="top-info-userHead" src="../../images/3.jpg"></image>
+                                <view class="top-info-userName">{{item.one.name}}:</view>
+                                <view class="top-info-divide"></view>
+                            </view>
+                            <view class="top-tag bubble bubble-alt yellow">{{item.one.tag}}</view>
+                        </view>
+                        <view class="bottom ">
+                            <view class="bottom-description column-between">
+                                <view class="bottom-description-header row-between">
+                                    <view class="bottom-description-header-title">{{item.one.title}}</view>
+                                    <view class="bottom-description-header-money">${{item.one.money}}</view>
+                                </view>
+                                <view class="bottom-description-text">{{item.one.text}} </view>
+                                <view class="bottom-description-bottom">
+                                    <view class="bottom-description-bottom-deadTime">截至日期：{{item.one.time}}</view>
+                                    <view class="bottom-description-bottom-icon"></view>
+                                </view>
+                            </view>
+                            <view class="bottom-button  row-center">
+                                <button class="bottom-button-take">
+                                    <image class="bottom-button-img" src="../../images/tab_activity.png"></image>
+                                    我接了
+                                </button>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+            <!-- 反面 -->
+            <block wx:else>
+                <view class="body-container column-center ">
+                    <view class="mirror">
+                        <view class="mirror-title row-center">
+                            投递要求
+                        </view>
+                        <view wx:for="{{item.one.principle}}" class="mirror-text">
+                            <view class="principleCircle"></view> {{item.num}}.{{item.content}}
+                        </view>
+                    </view>
+                </view>
+
+            </block>
+        </view>
+        <!-- 第二张 -->
+        <view class="body-swiper2" bindtouchstart="touchstart2" bindtouchend="touchend2"
+            style="z-index:{{index2}};top:{{ballTop2}}rpx;margin-left:{{ballLeft2}}rpx;width:{{ballWidth2}}rpx;"
+            animation="{{animationData2}}">
+            <!-- 正面 -->
+            <block wx:if="{{isFront2}}">
+                <view class="body-container" style="background-color:#FCBD00">
+                    <view class="outer">
+                        <view class="top row-between">
+                            <view class="top-info column-between">
+                                <image class="top-info-userHead" src="../../images/3.jpg"></image>
+                                <view class="top-info-userName">{{item.two.name}}:</view>
+                                <view class="top-info-divide"></view>
+                            </view>
+                            <view class="top-tag bubble bubble-alt yellow">{{item.two.tag}}</view>
+                        </view>
+                        <view class="bottom ">
+                            <view class="bottom-description column-between">
+                                <view class="bottom-description-header row-between">
+                                    <view class="bottom-description-header-title">{{item.two.title}}</view>
+                                    <view class="bottom-description-header-money">${{item.two.money}}</view>
+                                </view>
+                                <view class="bottom-description-text">{{item.two.text}} </view>
+                                <view class="bottom-description-bottom">
+                                    <view class="bottom-description-bottom-deadTime">截至日期：{{item.two.time}}</view>
+                                    <view class="bottom-description-bottom-icon"></view>
+                                </view>
+                            </view>
+                            <view class="bottom-button  row-center">
+                                <button class="bottom-button-take">
+                                    <image class="bottom-button-img" src="../../images/tab_activity.png"></image>
+                                    我接了
+                                </button>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+            <!-- 反面 -->
+            <block wx:else>
+                <view class="body-container">
+                    <view class="mirror-title">
+                        投递要求
+                    </view>
+                    <view wx:for="{{item.two.principle}}" class="mirror-text">
+                        {{item.num}}.{{item.content}}
+                    </view>
+                </view>
+            </block>
+        </view>
+
+        <!-- 第三张 -->
+        <view class="body-swiper3" bindtouchstart="touchstart3" bindtouchend="touchend3"
+            style="z-index:{{index3}};top:{{ballTop3}}rpx;  margin-left:{{ballLeft3}}rpx;width:{{ballWidth3}}rpx;"
+            animation="{{animationData3}}">
+            <!-- 正面 -->
+            <block wx:if="{{isFront3}}">
+                <view class="body-container" style="background-color:#52BDC6">
+                    <view class="outer">
+                        <view class="top row-between">
+                            <view class="top-info column-between">
+                                <image class="top-info-userHead" src="../../images/3.jpg"></image>
+                                <view class="top-info-userName">{{item.three.name}}:</view>
+                                <view class="top-info-divide"></view>
+                            </view>
+                            <view class="top-tag bubble bubble-alt yellow">{{item.three.tag}}</view>
+                        </view>
+                        <view class="bottom ">
+                            <view class="bottom-description column-between">
+                                <view class="bottom-description-header row-between">
+                                    <view class="bottom-description-header-title">{{item.three.title}}</view>
+                                    <view class="bottom-description-header-money">${{item.three.money}}</view>
+                                </view>
+                                <view class="bottom-description-text">{{item.three.text}} </view>
+                                <view class="bottom-description-bottom">
+                                    <view class="bottom-description-bottom-deadTime">截至日期：{{item.three.time}}</view>
+                                    <view class="bottom-description-bottom-icon"></view>
+                                </view>
+                            </view>
+                            <view class="bottom-button  row-center">
+                                <button class="bottom-button-take">
+                                    <image class="bottom-button-img" src="../../images/tab_activity.png"></image>
+                                    我接了
+                                </button>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+            <!-- 反面 -->
+            <block wx:else>
+                <view class="body-container">
+                    <view class="mirror-title">
+                        投递要求
+                    </view>
+                    <view wx:for="{{item.three.principle}}" class="mirror-text">
+                        {{item.num}}.{{item.content}}
+                    </view>
+                </view>
+
+
+            </block>
+        </view>
+    </block>
+</view>

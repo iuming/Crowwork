@@ -1,0 +1,21 @@
+@import "../../style/app.wxss";
+@import "../../style/ability-icon.wxss";
+
+
+.abilityTag {
+    font-size: 12px;
+    padding: 20rpx;
+
+}
+
+
+.tags {
+    font-size: 13px;
+    padding: 20rpx;
+    background-color: rgb(46, 44, 43);
+    color: yellow;
+}
+
+.textCenter {
+    text-align: center;
+}

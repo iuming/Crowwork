@@ -1,0 +1,94 @@
+@import "../../style/app.wxss";
+@import "../../style/ability-icon.wxss"
+
+.user {
+    margin-top: 200rpx;
+    overflow: hidden;
+}
+
+.user-info-wx {
+    margin: 0 35rpx;
+}
+
+.avatar {
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120rpx;
+    height: 120rpx;
+    border: 2px solid green;
+}
+
+.name {
+    height: max-content;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120rpx;
+}
+
+.user-info-divide {
+    margin-top: 60rpx;
+    width: 33rpx;
+    height: 16rpx;
+    padding-left: 20rpx;
+    background-color: yellow;
+}
+
+.user-count {
+    padding: 40rpx 40rpx;
+}
+
+.user-score,
+.user-money {
+    width: 600rpx;
+    margin: 30rpx auto;
+    padding: 40rpx 30rpx;
+    border: 1px solid rgb(71, 65, 65);
+    box-shadow: 2rpx 2rpx 2rpx rgb(133, 114, 114);
+    line-height: 60rpx;
+    border-radius: 20rpx;
+}
+
+.score,
+.money {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.score {
+    color: yellow;
+}
+
+.money {
+    color: red;
+}
+
+.after {
+    display: inline;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    line-height: 60rpx;
+}
+
+button {
+    background-color: black;
+    color: yellow;
+    border-radius: 60rpx;
+    margin: 20rpx 40rpx;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.ability-title {
+    font-size: 13px;
+    padding: 0 20rpx;
+    background-color: rgb(46, 44, 43);
+    color: yellow;
+}
+
+.my-abilities {
+    padding:20rpx;
+}

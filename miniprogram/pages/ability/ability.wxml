@@ -1,0 +1,82 @@
+<view class="ability-content">
+    <navBar page-name="添加技能"></navBar>
+    <view class="ability">
+        <view class="tags">前端</view>
+        <view class="abilityTag row-evenly">
+            <view class="textCenter">
+                <view class="ss-font ss-iconbug">
+                </view>
+                <view class="abilities">HTML</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconrenlizhongxin">
+                </view>
+                <view class="abilities">CSS</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconxiaoshoujiqiao">
+                </view>
+                <view class="abilities">JS</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconshixunbu">
+                </view>
+                <view class="abilities">React</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconicon-test">
+                </view>
+                <view class="abilities">Vue</view>
+            </view>
+
+        </view>
+        <view class="tags">后台</view>
+        <view class="abilityTag row-evenly">
+            <view class="textCenter">
+                <view class="ss-font ss-iconicon-test2">
+                </view>
+                <view class="abilities">Java</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconicon-test1">
+                </view>
+                <view class="abilities">Python</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconbug">
+                </view>
+                <view class="abilities">node</view>
+            </view>
+        </view>
+        <view class="tags">UI</view>
+        <view class="abilityTag row-evenly">
+            <view class="textCenter">
+                <view class="ss-font ss-iconicon-test4">
+                </view>
+                <view class="abilities">PS</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font ss-iconicon-test3">
+                </view>
+                <view class="abilities">PR</view>
+            </view>
+
+        </view>
+
+        <view class="tags">金融</view>
+        <view class="abilityTag row-evenly">
+            <view class="textCenter">
+                <view class="ss-font .ss-iconicon-test1">
+                </view>
+                <view class="abilities">会计</view>
+            </view>
+            <view class="textCenter">
+                <view class="ss-font .ss-iconicon-test2">
+                </view>
+                <view class="abilities">投资</view>
+            </view>
+
+
+        </view>
+    </view>
+</view>

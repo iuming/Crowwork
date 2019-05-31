@@ -1,0 +1,12 @@
+@import "../../style/app.wxss";
+.container {
+  align-items: center;
+  width: 750rpx;
+  height: 100vh;
+}
+.text {
+  text-align: center;
+}
+.b {
+  width: 500rpx;
+}

@@ -1,0 +1,64 @@
+<view class="user">
+    <view class="user-info">
+        <view class="user-info-wx row-start">
+            <view>
+                <open-data class='avatar' type='userAvatarUrl'></open-data>
+                <view class="user-info-divide"></view>
+            </view>
+            <open-data class='name' type='userNickName'></open-data>
+        </view>
+        <view class="user-info-share"></view>
+    </view>
+    <view class="user-count row-between">
+        <view class="user-count-ask" bindtap="send">
+            <view class="user-count-num">1</view>发布
+        </view>
+        <view class="user-count-ans" bindtap="ans">
+            <view class="user-count-num">2</view>接受
+        </view>
+        <view class="user-count-share" bindtap="share">
+            <view class="user-count-num">0</view>分享
+        </view>
+        <view class="user-count-sign" bindtap="sign">
+            <view class="user-count-num">5</view>签到
+        </view>
+    </view>
+    <view class="user-score row-between">
+        <view class="user-text">金币数量</view>
+        <view class="score">66<view class="after">></view>
+        </view>
+    </view>
+    <view class="user-money row-between">
+        <view class="user-text">现金余额</view>
+        <view class="money">$0.66<view class="after">></view>
+        </view>
+    </view>
+    <view class="user-button">
+        <button>去提现</button>
+
+    </view>
+    <view class="my-ability">
+
+        <view>
+            <view class="ability-title row-between"><view>我的技能</view><view bindtap='tian'>添加+</view></view>
+            <view class=" my-abilities row-evenly">
+                <view class="textCenter">
+                    <view class="ss-font .ss-iconicon-test1">
+                    </view>
+                    <view class="abilities">会计</view>
+                </view>
+                <view class="textCenter">
+                    <view class="ss-font .ss-iconicon-test2">
+                    </view>
+                    <view class="abilities">投资</view>
+
+                </view>
+                <view class="textCenter">
+                    <view class="ss-font ss-iconicon-test4">
+                    </view>
+                    <view class="abilities">PS</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

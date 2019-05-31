@@ -1,0 +1,6 @@
+<view class='container row-center'>
+    <view class='wrapper'>
+        <image mode='widthFix' class='b' src='../../images/logo.png'></image>
+        <view class="text">Crowwork--Up Up</view>
+    </view>
+</view>

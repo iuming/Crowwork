@@ -1,0 +1,19 @@
+<view class="myPost">
+    <navbar page-name="我的发布"></navbar>
+    <view class="myPost-box">
+        <view class="myPost-header row-between">
+            <view class="myPost-time">2019-05-11</view>
+            <view class="myPost-deleteButton">...</view>
+        </view>
+        <view class="myPostContent">
+            需求：无人智能存储柜应用在东北各个小区，每个小区居民大概有2000人，通过人脸识别和二维码扫描开柜取货，初期设计覆盖40个小区，中期覆盖200个小区，智能柜可能会在室外，能承接夏天的高温30度和冬天的底温零下30度，存储的商品都是常温。供应链调度和技术解决方案，实时记录进取存信息，汇报上位机，人机交互通过触控屏进行操作。供应链服务人员接到派单，将商品运输至智能存储机，将商品上架，上架过程使用扫描仪等设备进行识别商品（必须为系统注册商品），存储机系统自动记录在商品在货架上的位置。居民到达存储机网点，通过移动终端扫描条码或者二维码进行提货，系统从货架上获取商品，通过出口给到客户，并扫码确认，记录出货商品的货号、类型、居民编号、出货时间等信息。智能存储机每天上报进取存报表，流水单，并且在脱机（未联网）状态下，也能够正常工作。支持安防报警功能，支持对内的摄像头，能够对出货商品对比，防止误发商品，存储机周边安装要能够支持本地化处理，在设备被冲撞、移动、内部设备故障等情况发生时，自动启动报警灯。
+            我公司在吉林长春朝阳区。
+        </view>
+        <view class="myPost-buttom row-between">
+            <view class="myPost-money">999元</view>
+            <view class="myPost-progress">
+                进行中<view class="ss-font ss-iconarrow-right"></view>
+            </view>
+        </view>
+    </view>
+</view>

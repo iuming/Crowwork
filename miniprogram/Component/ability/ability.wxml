@@ -1,0 +1,8 @@
+<view class="ability">
+    <view class="tags">{{title}}</view>
+    <view wx:for="{{ability.tag}}" class="abilityTag">
+        <view calss="ss-font {{item.icon}}">
+        </view>
+        <view>{{item}}</view>
+    </view>
+</view>
